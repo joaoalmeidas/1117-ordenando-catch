@@ -12,16 +12,10 @@ public class TesteException {
 			
 			e.printStackTrace();
 			
-			try {
-				
-				metodoExceptionC();
-				
-			}catch(ExceptionA ec) {
-				
-				ec.printStackTrace();
-				
-			}
-
+			
+		}catch(ExceptionB e) {
+			
+			e.printStackTrace();
 			
 		}
 
